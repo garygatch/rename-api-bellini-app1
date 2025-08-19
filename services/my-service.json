@@ -5,17 +5,17 @@
   "singleton": true,
   "variables": [
     {
-      "name": "graphql",
+      "name": "graphqlR",
       "type": "graphql-api",
       "id": "graphql-api"
     },
     {
-      "name": "swaggerApi",
+      "name": "swaggerApiR",
       "type": "open-api",
       "id": "open-api"
     },
     {
-      "name": "restApi",
+      "name": "restApiR",
       "type": "open-api",
       "id": "open-api"
     },

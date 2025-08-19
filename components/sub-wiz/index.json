@@ -326,7 +326,7 @@
       "value": "0"
     },
     {
-      "name": "restApi",
+      "name": "restApiR",
       "type": "open-api",
       "id": "open-api"
     },
@@ -334,7 +334,7 @@
       "name": "rest",
       "description": "",
       "type": "method",
-      "body": "$ctrl.restApi.getObjects().then(result => {\n    $ctrl.obj = result.data\n})",
+      "body": "$ctrl.restApiR.getObjects().then(result => {\n    $ctrl.obj = result.data\n})",
       "invokeOnLoad": true,
       "isAsync": false,
       "returnType": {

@@ -9,7 +9,7 @@
       "name": "swagger",
       "description": "",
       "type": "method",
-      "body": "$ctrl.swaggerApi.findPetsByStatus({\n    status: \"available\"\n}).then(result => {\n    $ctrl.pets = result.data\n})",
+      "body": "$ctrl.swaggerApiR.findPetsByStatus({\n    status: \"available\"\n}).then(result => {\n    $ctrl.pets = result.data\n})",
       "invokeOnLoad": true,
       "isAsync": false,
       "returnType": {
@@ -19,7 +19,7 @@
       "watch": []
     },
     {
-      "name": "swaggerApi",
+      "name": "swaggerApiR",
       "type": "open-api",
       "id": "open-api"
     }
